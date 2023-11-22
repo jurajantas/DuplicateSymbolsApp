@@ -13,8 +13,8 @@
 		C658694F2B0E2AF900FA8777 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C658694D2B0E2AF900FA8777 /* Main.storyboard */; };
 		C65869512B0E2AFA00FA8777 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C65869502B0E2AFA00FA8777 /* Assets.xcassets */; };
 		C65869542B0E2AFA00FA8777 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C65869522B0E2AFA00FA8777 /* LaunchScreen.storyboard */; };
-		C658695D2B0E2B0600FA8777 /* SQLite in Frameworks */ = {isa = PBXBuildFile; productRef = C658695C2B0E2B0600FA8777 /* SQLite */; };
-		C65869632B0E2B4600FA8777 /* AppAuth in Frameworks */ = {isa = PBXBuildFile; productRef = C65869622B0E2B4600FA8777 /* AppAuth */; };
+		C658696D2B0E326400FA8777 /* SQLite in Frameworks */ = {isa = PBXBuildFile; productRef = C658696C2B0E326400FA8777 /* SQLite */; };
+		C65869702B0E328000FA8777 /* AppAuth in Frameworks */ = {isa = PBXBuildFile; productRef = C658696F2B0E328000FA8777 /* AppAuth */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +26,7 @@
 		C65869502B0E2AFA00FA8777 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C65869532B0E2AFA00FA8777 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C65869552B0E2AFA00FA8777 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C65869752B0E32AE00FA8777 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,8 +34,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C65869632B0E2B4600FA8777 /* AppAuth in Frameworks */,
-				C658695D2B0E2B0600FA8777 /* SQLite in Frameworks */,
+				C65869702B0E328000FA8777 /* AppAuth in Frameworks */,
+				C658696D2B0E326400FA8777 /* SQLite in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +45,7 @@
 		C658693B2B0E2AF900FA8777 = {
 			isa = PBXGroup;
 			children = (
+				C65869752B0E32AE00FA8777 /* README.md */,
 				C65869462B0E2AF900FA8777 /* DuplicateSymbolsApp */,
 				C65869452B0E2AF900FA8777 /* Products */,
 				C658695F2B0E2B3D00FA8777 /* Frameworks */,
@@ -96,8 +98,8 @@
 			);
 			name = DuplicateSymbolsApp;
 			packageProductDependencies = (
-				C658695C2B0E2B0600FA8777 /* SQLite */,
-				C65869622B0E2B4600FA8777 /* AppAuth */,
+				C658696C2B0E326400FA8777 /* SQLite */,
+				C658696F2B0E328000FA8777 /* AppAuth */,
 			);
 			productName = DuplicateSymbolsApp;
 			productReference = C65869442B0E2AF900FA8777 /* DuplicateSymbolsApp.app */;
@@ -128,8 +130,8 @@
 			);
 			mainGroup = C658693B2B0E2AF900FA8777;
 			packageReferences = (
-				C658695B2B0E2B0600FA8777 /* XCRemoteSwiftPackageReference "SQLite.swift" */,
-				C658695E2B0E2B1C00FA8777 /* XCRemoteSwiftPackageReference "AppAuth-iOS" */,
+				C658696B2B0E326400FA8777 /* XCRemoteSwiftPackageReference "SQLite.swift" */,
+				C658696E2B0E328000FA8777 /* XCRemoteSwiftPackageReference "AppAuth-iOS" */,
 			);
 			productRefGroup = C65869452B0E2AF900FA8777 /* Products */;
 			projectDirPath = "";
@@ -385,7 +387,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		C658695B2B0E2B0600FA8777 /* XCRemoteSwiftPackageReference "SQLite.swift" */ = {
+		C658696B2B0E326400FA8777 /* XCRemoteSwiftPackageReference "SQLite.swift" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/stephencelis/SQLite.swift.git";
 			requirement = {
@@ -393,7 +395,7 @@
 				minimumVersion = 0.14.1;
 			};
 		};
-		C658695E2B0E2B1C00FA8777 /* XCRemoteSwiftPackageReference "AppAuth-iOS" */ = {
+		C658696E2B0E328000FA8777 /* XCRemoteSwiftPackageReference "AppAuth-iOS" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/openid/AppAuth-iOS.git";
 			requirement = {
@@ -404,14 +406,14 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		C658695C2B0E2B0600FA8777 /* SQLite */ = {
+		C658696C2B0E326400FA8777 /* SQLite */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = C658695B2B0E2B0600FA8777 /* XCRemoteSwiftPackageReference "SQLite.swift" */;
+			package = C658696B2B0E326400FA8777 /* XCRemoteSwiftPackageReference "SQLite.swift" */;
 			productName = SQLite;
 		};
-		C65869622B0E2B4600FA8777 /* AppAuth */ = {
+		C658696F2B0E328000FA8777 /* AppAuth */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = C658695E2B0E2B1C00FA8777 /* XCRemoteSwiftPackageReference "AppAuth-iOS" */;
+			package = C658696E2B0E328000FA8777 /* XCRemoteSwiftPackageReference "AppAuth-iOS" */;
 			productName = AppAuth;
 		};
 /* End XCSwiftPackageProductDependency section */
